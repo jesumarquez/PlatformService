@@ -13,5 +13,7 @@ spec:
         app: platformservice
     spec:
       containers:
-       - name: platformservice
-         image: jesumarquez/platformservice:latest
+        - name: platformservice
+          image: jesumarquez/platformservice:latest
+          ports:
+          - containerPort: 80
